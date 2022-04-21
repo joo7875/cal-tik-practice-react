@@ -1,0 +1,19 @@
+#footer {
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#footer > div:first-child {
+    color: white;
+    line-height: 1.5;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer a:hover {
+    color: green;
+}
