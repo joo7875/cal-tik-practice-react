@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Nav from './Nav';
 
-import App from './App';
+import App from './components/App';
 import Calculator from './components/Calaulator';
 import TikTakTo from './components/TikTakTo';
 import Carousel from './components/Carousel';
