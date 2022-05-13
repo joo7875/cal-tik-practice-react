@@ -3,6 +3,7 @@
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
+    height: max-content;
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto; */
