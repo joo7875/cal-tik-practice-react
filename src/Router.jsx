@@ -11,6 +11,7 @@ import Calculator from './components/Calaulator';
 import TikTakTo from './components/TikTakTo';
 import Carousel from './components/Carousel';
 import ShoppingList from './sub-components/ShoppingList';
+import UseMemo from './sub-components/UseMemo';
 
 function Router() {
     return (
@@ -22,6 +23,7 @@ function Router() {
                 <Route path="/tiktakto" element={<TikTakTo />} />
                 <Route path="/carousel" element={<Carousel />} />
                 <Route path="/shopping-list" element={<ShoppingList />} />
+                <Route path="/use-memo" element={<UseMemo />} />
             </Routes>
             <Footer />
         </BrowserRouter>

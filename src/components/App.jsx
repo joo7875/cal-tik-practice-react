@@ -16,6 +16,7 @@ const App = () => {
         <div style={divstyle}>
             <Grid>
                 <Card title='Shopping list (medium)' src='./shopping-list' />
+                <Card title='useMemo()' src='./use-memo' />
             </Grid>
             <img src={icon} width={`${size}px`} alt="icon" onClick={handleClick} />
         </div>
