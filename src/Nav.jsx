@@ -9,7 +9,7 @@ function App() {
             <Link to="/">Home</Link>
             <Link to="/calculator">Calculator</Link>
             <Link to="/tiktakto">TikTakTo</Link>
-            <Link to="/carousel">Carousel</Link>
+            <Link to="/carousel">Carousel/Flashcard</Link>
         </div>
     );
 }

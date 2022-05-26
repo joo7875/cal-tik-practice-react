@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 import Calculator from './components/Calaulator';
 import TikTakTo from './components/TikTakTo';
-import Carousel from './components/Carousel';
+import Carousel from './components/Carousel/Carousel';
 import ShoppingList from './sub-components/ShoppingList';
 import UseMemo from './sub-components/UseMemo';
 
