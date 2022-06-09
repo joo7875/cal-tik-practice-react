@@ -12,6 +12,7 @@ import TikTakTo from './components/TikTakTo';
 import Carousel from './components/Carousel/Carousel';
 import ShoppingList from './sub-components/ShoppingList';
 import UseMemo from './sub-components/UseMemo';
+import CountdownTimer from './sub-components/CountdownTimer';
 
 function Router() {
     return (
@@ -24,6 +25,7 @@ function Router() {
                 <Route path="/carousel" element={<Carousel />} />
                 <Route path="/shopping-list" element={<ShoppingList />} />
                 <Route path="/use-memo" element={<UseMemo />} />
+                <Route path="/countdown-timer" element={<CountdownTimer />} />
             </Routes>
             <Footer />
         </BrowserRouter>

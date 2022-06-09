@@ -17,6 +17,7 @@ const App = () => {
             <Grid>
                 <Card title='Shopping list (medium)' src='./shopping-list' />
                 <Card title='useMemo()' src='./use-memo' />
+                <Card title='Countdown timer (easy)' src='./countdown-timer' />
             </Grid>
             <img src={icon} width={`${size}px`} alt="icon" onClick={handleClick} />
         </div>
